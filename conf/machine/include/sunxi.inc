@@ -13,7 +13,7 @@ XSERVER = "xserver-xorg \
            xf86-input-keyboard"
 
 PREFERRED_PROVIDER_virtual/kernel ?= "linux-mainline"
-PREFERRED_VERSION_linux-mainline ?= "5.4.%"
+PREFERRED_VERSION_linux-mainline ?= "5.7.%"
 PREFERRED_PROVIDER_u-boot ?= "u-boot"
 PREFERRED_PROVIDER_virtual/bootloader ?= "u-boot"
 
